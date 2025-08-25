@@ -1,24 +1,2 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# customer_inviter_api
+This Rails API backend solves a data processing challenge. It accepts a file of customer records (JSON lines), calculates GPS distances to filter users within 100km of Mumbai, and returns a sorted invitation list. Features a service-oriented design and is fully tested with RSpec.
